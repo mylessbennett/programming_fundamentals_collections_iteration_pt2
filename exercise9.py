@@ -27,3 +27,10 @@ def check_for_bananas(grocery_list):
     return
 
 check_for_bananas(grocery_list)
+#---------------------------------------------------------------
+print(grocery_list[1])
+#---------------------------------------------------------------
+new_list = sorted(grocery_list)
+print_grocery_list(new_list)
+new_list.remove('salmon')
+print(new_list)
