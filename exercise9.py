@@ -1,7 +1,7 @@
 grocery_list = ["bread", "apples", "milk", 'salmon', 'bananas']
 #---------------------------------------------------------------
-# for food in grocery_list:
-#     print("* {}".format(food))
+for food in grocery_list:
+    print("* {}".format(food))
 #---------------------------------------------------------------
 grocery_list.append("rice")
 #---------------------------------------------------------------
